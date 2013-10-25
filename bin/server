@@ -1,0 +1,3 @@
+#!/bin/sh
+export PERL5LIB="/home/dubravsky/work/stream/lib/:$PERL5LIB"
+exec /usr/bin/plackup -s Starman -E development ./app.pl $*

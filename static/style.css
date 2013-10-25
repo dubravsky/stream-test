@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    //height: 100%;
+    background: #f3f3f3;
+	color: #000000;
+	font: 75% Arial, Tahoma, sans-serif;
+}
+
+.container {
+    //height: 100%;
+    width: 100%;
+    //overflow:hidden;
+    //scroll: none;
+}
+
+.header {
+    padding:30px 0 30px 0;
+    width: 100%;
+}
+
+.header-menu {
+    background-color: #2665a9;
+    height: 42px;
+}
+
+#content {
+    padding: 0 40px 0 40px;
+}
+
+.item {
+    width:30%;
+    padding:10px;
+}
+
+.item-content {
+    width:100%;
+    background-color: #a1a1a1;
+}
